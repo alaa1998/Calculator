@@ -1,0 +1,114 @@
+/* CSS Reset & Global Styles */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "times new roman", sans-serif;
+  font-weight: bold;
+}
+
+.wrapper {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: darkgrey;
+  transition: 0.8s all;
+  border-radius: 300px;
+
+}
+h1 {
+  text-align: center;
+  margin-bottom: 5%;
+  color: yellow;
+  background-color:darkgrey;
+  font-size: 20px;
+
+
+
+}
+.container {
+  width: 300px;
+}
+.result {
+  width: 59.1%;
+}
+input {
+  padding: 25px;
+  color: black;
+  font-size: 1em;
+  cursor: pointer;
+  width: 70px;
+  background-color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+}
+
+.first-row,
+.second-row,
+.third-row,
+.fourth-row,
+.fifth-row {
+  margin-bottom: 5px;
+}
+input[type="button"] {
+  color: black;
+}
+input[type="text"] {
+  background-color: rgb(255, 255, 255);
+  width: 218px;
+}
+input[type="button"]:hover {
+  background-color: yellow;
+  color: black;
+}
+#clear {
+  color: black;
+  background-color: yellow;
+}
+button {
+  border: none;
+  background-color: black;
+  padding: 9px;
+  color: white;
+  margin: 2px;
+  cursor: pointer;
+  outline: none;
+  border-radius: 4px;
+  font-size: 0.8em;
+  font-weight: 200;
+  margin-left: 100px;
+  margin-top: 10px;
+}
+
+a {
+  text-decoration: none;
+  border: none;
+  background-color: rgb(41, 38, 38);
+  padding: 8px;
+  color: white;
+  margin: 2px;
+  cursor: pointer;
+  outline: none;
+  border-radius: 4px;
+
+  font-size: 0.8em;
+  font-weight: 200;
+}
+.bottom-buttons {
+  display: flex;
+  margin-left: -2.3px;
+}
+.fab {
+  font-size: 1.1em;
+}
+
+p{
+  background-color: rgb(28, 231, 221);
+  margin-left: 500px;
+  background-blend-mode: screen;
+}
+
